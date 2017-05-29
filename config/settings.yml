@@ -1,4 +1,4 @@
 plugins:
-  exo_lever_markdown_enabled:
+  lever_markdown_enabled:
     default: true
     client: true

@@ -4,4 +4,4 @@
 # authors: Álvaro Molina Álvarez
 # url: https://github.com/amolinaalvarez/discourse-lever-markdown.git
 
-enabled_site_setting :exo_lever_markdown_enabled
+enabled_site_setting :lever_markdown_enabled
