@@ -5,5 +5,10 @@ registerOption((siteSettings, opts) => {
 });
 
 export function setup(helper) {
-  helper.whiteList([ 'div[id=highlight]' ]);
+  helper.whiteList([
+    'div[id=highlight]',
+    'advisor-request',
+    'advisor-request[title]',
+    'advisor-request.elided'
+  ]);
 }
