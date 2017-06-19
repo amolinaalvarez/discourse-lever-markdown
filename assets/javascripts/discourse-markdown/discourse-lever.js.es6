@@ -13,10 +13,6 @@ export function setup(helper) {
     'div.button',
     'span.user',
     'span.tag',
-    'advisor-request.project-title',
-    'div[id=highlight]',
-    'advisor-request',
-    'advisor-request[title]',
-    'advisor-request.elided'
+    'a.link'
   ]);
 }
