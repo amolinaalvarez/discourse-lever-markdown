@@ -6,6 +6,14 @@ registerOption((siteSettings, opts) => {
 
 export function setup(helper) {
   helper.whiteList([
+    'div.project-title',
+    'div.subject',
+    'div.subtitle',
+    'div.text',
+    'div.button',
+    'span.user',
+    'span.tag',
+    'advisor-request.project-title',
     'div[id=highlight]',
     'advisor-request',
     'advisor-request[title]',
