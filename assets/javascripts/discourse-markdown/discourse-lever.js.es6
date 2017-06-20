@@ -6,6 +6,7 @@ registerOption((siteSettings, opts) => {
 
 export function setup(helper) {
   helper.whiteList([
+    'div.border',
     'div.project-title',
     'div.subject',
     'div.subtitle',
