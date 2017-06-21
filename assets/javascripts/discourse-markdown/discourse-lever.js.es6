@@ -15,7 +15,7 @@ export function setup(helper) {
     'span.user',
     'span.tag',
     'span.completed',
-    'span.discarded'
+    'span.discarded',
     'a.link'
   ]);
 }
