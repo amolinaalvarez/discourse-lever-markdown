@@ -14,6 +14,8 @@ export function setup(helper) {
     'div.button',
     'span.user',
     'span.tag',
+    'span.completed',
+    'span.discarded'
     'a.link'
   ]);
 }
