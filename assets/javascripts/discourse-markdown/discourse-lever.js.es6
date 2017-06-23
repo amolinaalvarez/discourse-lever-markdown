@@ -6,16 +6,16 @@ registerOption((siteSettings, opts) => {
 
 export function setup(helper) {
   helper.whiteList([
-    'div.border',
-    'div.project-title',
-    'div.subject',
-    'div.subtitle',
-    'div.text',
-    'div.button',
-    'span.user',
-    'span.tag',
-    'span.completed',
-    'span.discarded',
-    'a.link'
+    'div.ticket-border',
+    'div.ticket-project-title',
+    'div.ticket-subject',
+    'div.ticket-subtitle',
+    'div.ticket-text',
+    'div.ticket-button',
+    'span.ticket-user',
+    'span.ticket-tag',
+    'span.ticket-completed',
+    'span.ticket-discarded',
+    'a.ticket-link'
   ]);
 }
